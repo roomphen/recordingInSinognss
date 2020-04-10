@@ -1,0 +1,15 @@
+
+1.
+MainActivity--点击MainInitializar-->到达MainInitializer-initFunctionList()函数
+--点击函数中的setadapter中的FunctionInitializer-->
+到达功能初始化页面-点击RoverWorkModeActivity.class
+进入移动站--点击继承关系进入工作模式页面--oncreate进入UI界面---
+点击启动alt+f7进入butn响应页面---
+点击按钮响应下openWorkMode函数，点击openWorkMode函数下onekeystart函数（一键启用）
+---点击startrover函数--->
+这里把startrover写在openworkmode里直接把跨级调用省去原来各个函数嵌套作用
+（-->函数里面StartModeProgressDialogFragment
+类点进去----暂时找到的东西在start函数中---连接函数在start函数中的if语句中 
+ ----BaseModeController模式启动控制器重要）
+
+
